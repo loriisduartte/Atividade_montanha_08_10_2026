@@ -8,6 +8,7 @@ public class App {
 
         Scanner ler = new Scanner(System.in);
         String senha = "";
+        String [] senhasobvias = {"12345678", "senha123", "admin123"};
         System.out.println("========== Avaliador de senhas ========");
         System.out.println ("Digite sua Senha");
         senha = ler.nextLine();
@@ -28,8 +29,8 @@ public class App {
             if (Character.isDigit(caractere)) {
                 temNumero = true;
                  break;
-
-       
+           
+       for 
 
 
 
